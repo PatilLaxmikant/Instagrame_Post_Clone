@@ -1,44 +1,47 @@
---Instagram Post Clone
+# Instagram Post Clone
+
 This project is a clone of the Instagram post feature, allowing users to upload, view, and interact with posts similar to Instagram. The application is built with Node.js and likely uses Express for the backend and EJS for templating.
 
---Features
-Upload and display images.
-Like and comment on posts.
-Responsive design for mobile and desktop.
-User authentication (assuming it is implemented).
+## Features
+- **Upload and display images**.
+- **Like and comment on posts**.
+- **Responsive design** for mobile and desktop.
+- **User authentication** (assuming it is implemented).
 
---Installation
-Clone the repository:
+## Installation
 
-bash
-Copy code
-git clone https://github.com/yourusername/Instagrame_Post_Clone.git
-cd Instagrame_Post_Clone
-Install dependencies:
+### Clone the repository:
 
+## Installation
+
+### Install dependencies:
 Ensure you have Node.js installed. Then, install the necessary packages:
+```bash
 
-bash
-Copy code
 npm install
-Run the application:
+```
+
+## Run the application:
 
 Start the application with:
 
 bash
 Copy code
+```bash
 npm start
+```
+
 By default, the application should be available at http://localhost:3000.
 
---Project Structure
-index.js: The main entry point of the application.
-public/: Contains static assets such as CSS, images, and JavaScript files.
-views/: Contains EJS templates for rendering pages.
-node_modules/: Contains installed Node.js packages.
-package.json: Project metadata and dependencies.
-.vscode/: Contains Visual Studio Code workspace settings.
+### Project Structure
+- index.js: The main entry point of the application.
+- public/: Contains static assets such as CSS, images, and JavaScript files.
+- views/: Contains EJS templates for rendering pages.
+- node_modules/: Contains installed Node.js packages.
+- package.json: Project metadata and dependencies.
+- .vscode/: Contains Visual Studio Code workspace settings.
 
---Dependencies
+### Dependencies
 The project depends on several Node.js packages, which are listed in the package.json file. Some key dependencies may include:
 
 Express
